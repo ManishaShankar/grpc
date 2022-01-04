@@ -1,7 +1,7 @@
 const client = require('./client')
 
 let newTodo = {
-    title : 'New todo is inserted',
+    title : 'New todo',
     iscompleted : true
  }
 
