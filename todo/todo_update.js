@@ -2,8 +2,8 @@ const client = require('./client');
 
 let todo = {
     id : '1',
-    title : 'Hello gRPC',
-    iscompleted : true
+    title : 'Hello World',
+    iscompleted : false
 }
 
 client.update(todo,(error,todo) => {
