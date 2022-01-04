@@ -24,6 +24,6 @@ server.addService(todoproto.TodoService.service,{
 })
 
 server.bind("127.0.0.1:50051", grpc.ServerCredentials.createInsecure());
-console.log("server is running at http://127.0.0.1:50051");
+console.log("server running at http://127.0.0.1:50051");
 
-server.start(); 
+server.start();
