@@ -8,7 +8,7 @@ let todo = {
 
 client.update(todo,(error,todo) => {
     if(!error){
-        console.log('Note is updated successfully',todo)
+        console.log('Todo is updated successfully',todo)
     }
     else{
         console.error(error)
