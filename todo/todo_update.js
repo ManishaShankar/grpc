@@ -1,8 +1,8 @@
 const client = require('./client');
 
 let todo = {
-    id : '1',
-    title : 'Hello gRPC',
+    id : '2',
+    title : 'Hello hi',
     iscompleted : true
 }
 
