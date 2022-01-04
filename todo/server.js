@@ -5,7 +5,7 @@ const todoproto = grpc.load("todo.proto");
 const server = new grpc.Server()
 
 let todos = [
-    { id : '1',title : 'todo',iscompleted : false }
+    { id : '1',title : 'Todos',iscompleted : false }
 ];
 
 server.addService(todoproto.TodoService.service,{
