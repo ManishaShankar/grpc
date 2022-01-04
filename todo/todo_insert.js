@@ -1,8 +1,8 @@
 const client = require('./client')
 
 let newTodo = {
-    title : 'New checklist',
-    iscompleted : false
+    title : 'New todo is inserted',
+    iscompleted : true
  }
 
  client.insert(newTodo,(error,todo) => {
